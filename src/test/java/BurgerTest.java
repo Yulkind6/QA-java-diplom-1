@@ -9,7 +9,6 @@ import praktikum.Bun;
 import praktikum.Burger;
 import praktikum.Ingredient;
 import praktikum.IngredientType;
-
 import java.util.Arrays;
 import java.util.List;
 
@@ -36,7 +35,6 @@ public class BurgerTest {
     public void setBunsTest() {
         Bun expected = bun;
         Burger burger = new Burger();
-
         burger.setBuns(bun);
 
         assertEquals(expected, burger.bun);
